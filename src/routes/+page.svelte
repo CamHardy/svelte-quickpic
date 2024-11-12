@@ -1,0 +1,10 @@
+<h1 class="text-2xl font-thin">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-extralight">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-light">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-normal">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-medium">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-semibold">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-bold">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-extrabold">Welcome to SvelteKit</h1>
+<h1 class="text-2xl font-black">Welcome to SvelteKit</h1>
+<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
