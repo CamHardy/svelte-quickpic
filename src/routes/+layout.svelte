@@ -1,4 +1,5 @@
 <script>
+	// TODO: remove unused imports
 	import '@fontsource/geist-sans/100.css';
 	import '@fontsource/geist-sans/200.css';
 	import '@fontsource/geist-sans/300.css';
@@ -23,4 +24,6 @@
 <!--* don't forget to update .env and uncomment this in production -->
 <!-- <UmamiAnalyticsEnv /> -->
 
-{@render children()}
+<main class="font-sans antialiased">
+	{@render children()}
+</main>
