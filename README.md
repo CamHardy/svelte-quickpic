@@ -1,38 +1,44 @@
-# sv
+## Svelte QuickPic - Tools For Pictures
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+I wanted a ~~better~~ Svelter way to upscale svgs as pngs so I ~~built~~ am building it. Also wanted a better way to make images into squares. Open source because why not. Free because it only runs on client.
 
-## Creating a project
+## TODO:
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- [ ] Site-wide
+  - [ ] favicons
+  - [ ] fonts
+    - [x] Geist Sans
+    - [ ] Inter
+  - [ ] twitter images
+  - [ ] opengraph images
+  - [x] global styles
+  - [ ] 404 page
+- [ ] Routes
+  - [x] Home
+    - [ ] layout
+      - [x] content
+      - [ ] remove unused font weights
+      - [ ] Umami analytics
+    - [ ] page
+      - [x] content
+      - [ ] edit tagline
+      - [ ] change github link to svelte repo
+  - [ ] Tools
+    - [ ] layout
+    - [ ] SVG to PNG
+    - [ ] Square Image
+    - [ ] Rounded Border
+      - [ ] twitter image
+      - [ ] opengraph image
+      - [ ] content
+- [ ] Components
+  - [ ] BorderRadiusSelector
+  - [x] FileDropzone
+  - [x] OptionSelector
+  - [ ] SvgScaleSelector
+  - [x] UploadBox
+- [ ] Libs
+  - [ ] clipboardPaste
+  - [ ] fileUploader
+  - [ ] localStorage
+  - [ ] fileUtils
