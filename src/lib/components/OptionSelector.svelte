@@ -42,7 +42,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </svelte:head>
 
-<div class="m-8 flex flex-col items-center gap-2">
+<div class="flex flex-col items-center gap-2">
   <span class="text-sm text-white/60">{title}</span>
   <div class="flex flex-col items-center gap-2">
     <div bind:this={buttonGroup} class="relative inline-flex rounded-lg bg-white/5 p-1">

@@ -32,10 +32,10 @@ I wanted a ~~better~~ Svelter way to upscale svgs as pngs so I ~~built~~ am buil
       - [ ] opengraph image
       - [ ] content
 - [ ] Components
-  - [ ] BorderRadiusSelector
+  - [x] BorderRadiusSelector
   - [x] FileDropzone
   - [x] OptionSelector
-  - [ ] SvgScaleSelector
+  - [x] SvgScaleSelector
   - [x] UploadBox
 - [ ] Libs
   - [ ] clipboardPaste
