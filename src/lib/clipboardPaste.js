@@ -1,13 +1,15 @@
 import { onMount } from "svelte";
 
 /**
- * @param {(file: File) => void} onPaste
- * @param {string[]} acceptedFileTypes 
+ * @param {{
+ * onPaste: (file: File) => void
+ * acceptedFileTypes: string[]
+ * }} T
  */
-export function useClipboardPaste(
+export function useClipboardPaste({
   onPaste,
   acceptedFileTypes
- ) {
+}) {
   /** @param {ClipboardEvent} event */
   async function handlePaste(event) {
     const items = event.clipboardData?.items;

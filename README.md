@@ -38,7 +38,8 @@ I wanted a ~~better~~ Svelter way to upscale svgs as pngs so I ~~built~~ am buil
   - [x] SvgScaleSelector
   - [x] UploadBox
 - [ ] Libs
-  - [ ] clipboardPaste
-  - [ ] fileUploader
+  - [x] clipboardPaste
+  - [x] fileUploader
   - [ ] localStorage
   - [ ] fileUtils
+- [ ] integrate everything aaaaaa

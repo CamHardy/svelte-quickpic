@@ -38,10 +38,6 @@
   $effect(updateHighlight);
 </script>
 
-<svelte:head>
-  <script src="https://cdn.tailwindcss.com"></script>
-</svelte:head>
-
 <div class="flex flex-col items-center gap-2">
   <span class="text-sm text-white/60">{title}</span>
   <div class="flex flex-col items-center gap-2">

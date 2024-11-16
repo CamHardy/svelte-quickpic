@@ -9,7 +9,7 @@
     children,
     acceptedFileTypes,
     dropText,
-    currentFile,
+    currentFile = $bindable(),
   } = $props();
   let isDragging = $state(false);
   let dragCounter = 0;
